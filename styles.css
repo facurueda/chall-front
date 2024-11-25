@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.video-container {
+  width: 100%;
+}
+
+#video {
+  background-color: black;
+  width: 100%;
+  height: 75vh;
+  object-fit: contain;
+}
+
+.weather-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #f3f3f3;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  visibility: hidden;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

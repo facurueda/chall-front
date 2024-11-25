@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Sync</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="video-container">
+      <video loop id="video" controls muted>
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="weather-bottom">
+      <h1>Estado del Clima</h1>
+      <div class="loader"></div>
+      <div class="weather-container">
+        <div id="weather">
+          <p>Ciudad: <span id="city"></span></p>
+          <p>Temperatura: <span id="temp"></span>°C</p>
+        </div>
+        <div class="weather-icon-container">
+          <img id="weather-icon" src="" alt="Icono del clima" />
+        </div>
+      </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>

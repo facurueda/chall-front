@@ -14,8 +14,8 @@ Instalar las librerias desde consola utilizando algun gestor (Ej: Yarn)
 
 * Asegurarse tener iniciado el server
 
-* - "Yarn"
+* "Yarn"
 
-* - Compilar codigo ES6 -> ES5 - "Yarn build"
+* Compilar codigo ES6 -> ES5 - "Yarn build"
 
-* - Iniciar el html con la extensión de VsCode o http-server.
+* Iniciar el html con la extensión de VsCode o http-server.
